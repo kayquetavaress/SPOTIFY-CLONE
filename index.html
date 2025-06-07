@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+  <!-- TOPO -->
+  <header class="barra-superior">
+    <div class="esquerda">
+      <img src="./IMG/LOGO SPOTIFY.jpeg" alt="Spotify" class="logo" />
+      <button class="botao-icone">
+        <!-- Ícone Home -->
+        <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+          <path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/>
+        </svg>
+      </button>
+      <div class="caixa-pesquisa">
+        <button class="botao-icone">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+            <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+          </svg>
+        </button>
+        <input type="text" placeholder="  O que você quer ouvir?" />
+      </div>
+    </div>
+
+    <div class="direita">
+      <a href="#">Premium</a>
+      <a href="#">Suporte</a>
+      <a href="#">Baixar</a>
+      <span class="divisor">|</span>
+   <span class="instalar-app">
+  <i class="power-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg></i>
+  Instalar aplicativo
+</span>
+
+      <a href="#">Inscrever-se</a>
+      <button class="botao-entrar">Entrar</button>
+    </div>
+  </header>
+
+  <!-- LAYOUT GERAL -->
+  <div class="conteudo">
+    <!-- MENU LATERAL -->
+    <aside class="sidebar">
+      <div class="biblioteca">
+        <span class="titulo-biblioteca">Sua Biblioteca</span>
+        <button class="botao-adicionar" title="Criar playlist ou pasta">+</button>
+      </div>
+
+      <div class="card-playlist">
+        <p class="card-titulo">Crie sua primeira playlist</p>
+        <p class="card-subtitulo">É fácil, vamos te ajudar.</p>
+        <button class="botao-criar-playlist">Criar playlist</button>
+      </div>
+    </aside>
+
+   <!-- CONTEÚDO PRINCIPAL -->
+<main class="principal">
+  <h1>Músicas em alta</h1>
+  <section class="grade-playlists">
+
+    <div class="cartao-playlist">
+      <img src="./IMG/RACIONAIS.jpeg" alt="RACIONAIS" />
+      <h5>NEGO DRAMA</h5>
+      <h6>Racionais MC's</h6>
+    </div>
+
+    <div class="cartao-playlist">
+      <img src="./IMG/EAZY E.jpeg" alt="EAZY E" />
+      <h5>Real Muthaphuckkin G's</h5>
+      <h6>Eazy-E</h6>
+    </div>
+
+    <div class="cartao-playlist">
+      <img src="./IMG/MAJOR RD.jpeg" alt="MAJOR RD" />
+      <h5>60K</h5>
+      <h6>Major RD</h6>
+    </div>
+
+    <div class="cartao-playlist">
+      <img src="./IMG/50CENT.jpeg" alt="50 CENT" />
+      <h5>Window Shopper</h5>
+      <h6>50 Cent</h6>
+    </div>
+
+    <div class="cartao-playlist">
+      <img src="./IMG/PISANDO DESCALÇO.jpeg" alt="MANEVA" />
+      <h5>PISANDO DESCALÇO</h5>
+      <h6>Maneva</h6>
+    </div>
+
+    <div class="cartao-playlist">
+      <img src="./IMG/CHARLIE BROWN JR.jpeg" alt="CHARLIE BROWN JR" />
+      <h5>Céu azul</h5>
+      <h6>Charlie Brown Jr</h6>
+    </div>
+
+    <div class="cartao-playlist">
+      <img src="./IMG/EDU RIBEIRO.jpeg" alt="Edu Ribeiro" />
+      <h5>Me Namora</h5>
+      <h6>Edu Ribeiro</h6>
+    </div>
+
+    <div class="cartao-playlist">
+      <img src="./IMG/ONZE20.jpeg" alt="ONZE20" />
+      <h5>Pra Você</h5>
+      <h6>Onze:20</h6>
+    </div>
+
+    <div class="cartao-playlist">
+      <img src="./IMG/AKON.jpeg" alt="Akon" />
+      <h5>Loleny</h5>
+      <h6>Akon</h6>
+    </div>
+
+    <div class="cartao-playlist">
+      <img src="./IMG/HUGO OJUARA.jpeg" alt="Preto Demais" />
+      <h5>Preto Demais</h5>
+      <h6>Hugo Ojuara</h6>
+    </div>
+
+  </section> <br><br>
+
+<h1>Artistas Populares</h1>
+<section class="grade-playlists artistas-principais">
+  <div class="cartao-playlist">
+    <img src="./IMG/HUGO OJUARA.jpeg" alt="Preto Demais" />
+    <h5>Preto Demais</h5>
+  </div>
+   <div class="cartao-playlist">
+    <img src="./IMG/Mano Brown.jpeg" alt="Mano Brown" />
+    <h5>Mano Brown</h5>
+  </div>
+  <div class="cartao-playlist">
+    <img src="./IMG/MAJOR RD.jpeg" alt="Major RD" />
+    <h5>Major RD</h5>
+  </div>
+
+
+
+</section>
+
+</main>
+
+  
+  
+
+  <!-- PLAYER INFERIOR -->
+  <footer class="player">
+    <div class="controles-player">
+
+
+      <div class="info-musica">
+  <img src="/IMG/RACIONAIS.jpeg" alt="Capa do Álbum">
+  <div class="texto-musica">
+    <span class="titulo-musica">NEGO DRAMA</span>
+    <span class="subtitulo-musica">Racionais MC's</span>
+  </div>
+</div>
+
+
+
+      
+      <!-- Botões -->
+      <div class="botoes-controle">
+        <span class="material-icons">shuffle</span>
+        <span class="material-icons">skip_previous</span>
+        <span class="material-icons">play_circle</span>
+        <span class="material-icons">skip_next</span>
+        <span class="material-icons">repeat</span>
+      </div>
+
+      <!-- Barra de progresso -->
+      <div class="progress-container">
+        <span class="time">0:00</span>
+        <input type="range" class="progress-bar" min="0" max="100" value="30" />
+        <span class="time">3:25</span>
+      </div>
+
+       <div class="extras-player">
+  <span class="icone"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-400q-50 0-85-35t-35-85v-240q0-50 35-85t85-35q50 0 85 35t35 85v240q0 50-35 85t-85 35Zm0-240Zm-40 520v-123q-104-14-172-93t-68-184h80q0 83 58.5 141.5T480-320q83 0 141.5-58.5T680-520h80q0 105-68 184t-172 93v123h-80Zm40-360q17 0 28.5-11.5T520-520v-240q0-17-11.5-28.5T480-800q-17 0-28.5 11.5T440-760v240q0 17 11.5 28.5T480-480Z"/></svg></span>
+  <span class="icone"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M0-160v-80h160v-40q-33 0-56.5-23.5T80-360v-400q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v400q0 33-23.5 56.5T800-280v40h160v80H0Zm160-200h640v-400H160v400Zm0 0v-400 400Z"/></svg></span>
+  <span class="icone"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M560-131v-82q90-26 145-100t55-168q0-94-55-168T560-749v-82q124 28 202 125.5T840-481q0 127-78 224.5T560-131ZM120-360v-240h160l200-200v640L280-360H120Zm440 40v-322q47 22 73.5 66t26.5 96q0 51-26.5 94.5T560-320ZM400-606l-86 86H200v80h114l86 86v-252ZM300-480Z"/></svg></span>
+  <input type="range" class="volume-bar" min="0" max="100" value="50">
+  <span class="icone">⤢</span>
+  <span class="icone">⛶</span>
+</div>
+
+
+    </div>
+  </footer>
+
+</body>
+</html>
