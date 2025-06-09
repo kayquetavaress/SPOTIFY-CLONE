@@ -294,6 +294,7 @@ body {
   -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
+  padding: 1em;
 }
 
 .progress-bar::-webkit-slider-thumb {
